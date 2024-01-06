@@ -6,7 +6,7 @@ public class ExcerciseQ1 {
 		
 		System.out.println("Enter the marks of subject 1");
 		byte Subject1 = sc.nextByte();
-		System.out.println("Enter the marks of subject 2");
+		System.out.println("Enter the marks of subject 2");		//entering the marks of 3 subjects
 		byte Subject2 = sc.nextByte();
 		System.out.println("Enter the marks of subject 3");
 		byte Subject3 = sc.nextByte();
