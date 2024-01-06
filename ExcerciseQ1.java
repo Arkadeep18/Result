@@ -12,10 +12,10 @@ public class ExcerciseQ1 {
 		byte Subject3 = sc.nextByte();
 		
 		
-		double avg = (Subject1 + Subject2 + Subject3)/3;
+		double avg = (Subject1 + Subject2 + Subject3)/3;	//calculating average
 		System.out.println("Average Marks"+ avg);
 		
-		if(avg >= 40 && Subject1 >=33 && Subject2 >=33 && Subject3 >=33) {
+		if(avg >= 40 && Subject1 >=33 && Subject2 >=33 && Subject3 >=33) {    //to check if the student is pass or not
 			System.out.println("Pass");
 		}else {
 			System.out.println("Fail");
